@@ -143,5 +143,4 @@ Gender-based patterns and how tenure influences evaluation outcomes.
 
 **Conclusion**
 
-practical3.ipynb demonstrates practical applications of data cleaning, descriptive analysis, and visualization using Python.
-It provides a structured approach to exploring 
+practical3.ipynb demonstrates practical applications of data cleaning, descriptive analysis, and visualization using Python. It provides a structured approach to exploring academic evaluation data and uncovering patterns based on demographic and professional factors.
