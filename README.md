@@ -144,3 +144,95 @@ Gender-based patterns and how tenure influences evaluation outcomes.
 **Conclusion**
 
 practical3.ipynb demonstrates practical applications of data cleaning, descriptive analysis, and visualization using Python. It provides a structured approach to exploring academic evaluation data and uncovering patterns based on demographic and professional factors.
+
+
+
+# Pandas_Practical4 
+**Student Rating Dataset Analysis**
+
+This repository contains an analysis of a Student Rating Dataset. The dataset includes professor information such as tenure status, age, gender, minority status, and teaching evaluation scores. The purpose of this project is to explore relationships between these variables and visualize the data.
+
+**Project Objectives**
+
+Calculate the percentage of visible minorities who are tenured and evaluate whether tenure status differs based on minority status.
+
+Analyze whether average age differs between tenured and untenured professors, including mean and standard deviation calculations.
+
+Visualize the distribution of professor ages to understand the spread of ages in the dataset.
+
+Compare vertical and horizontal bar charts (bar vs barh) and visualize the distribution of professors by gender.
+
+Calculate the median evaluation score for tenured professors.
+
+**Workflow**
+*Step 1: Percentage of visible minorities who are tenured*
+
+Identify all visible minority professors.
+
+Count how many are tenured.
+
+Calculate the percentage.
+
+Compare with overall tenure rate to assess differences.
+
+*Step 2: Average age by tenure*
+
+Separate professors into tenured and untenured groups.
+
+Calculate the mean and standard deviation for each group.
+
+Compare the averages to observe differences in age by tenure.
+
+*Step 3: Graph for age*
+
+Use a histogram to visualize the distribution of professor ages.
+
+Analyze patterns or trends in age distribution.
+
+*Step 4: Bar chart vs Horizontal bar chart*
+
+bar(): vertical bars for categorical comparison.
+
+barh(): horizontal bars for categorical comparison.
+
+Plot gender distribution using both chart types to compare visuals.
+
+*Step 5: Median evaluation score for tenured professors*
+
+Filter dataset for tenured professors.
+
+Arrange evaluation scores in ascending order.
+
+Identify the middle value as the median.
+
+**Dataset**
+
+The dataset contains the following columns:
+
+professor_id – Unique ID for each professor
+
+tenure – Tenure status (Tenured / Untenured)
+
+visible_minority – Minority status (Yes / No)
+
+age – Age of professor
+
+gender – Gender (Male / Female)
+
+evaluation_score – Teaching evaluation score
+
+Note: A synthetic dataset can be generated if the actual dataset is unavailable.
+
+**Visualizations**
+
+Histogram for age distribution
+
+Vertical bar chart for gender distribution
+
+Horizontal bar chart for gender distribution
+
+**Conclusion**
+
+The workflow allows the analysis of tenure and minority status, age differences, gender distribution, and teaching evaluation scores.
+
+Insights can help understand trends in faculty demographics and evaluation patterns.
